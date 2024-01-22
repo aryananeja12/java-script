@@ -32,3 +32,37 @@ const myFunction = function(){
 }
 
 console.log(typeof outsideTemp); //null ka type typeof mein object aata hain
+
+
+
+
+
+// ++++++++++++++++++++++
+
+// Stack (Primitive) 
+//copy milta hain mtlb jo bhi change hoga copy mein hoga change
+
+let myYoutubename="AryanAneja"
+
+let anotherName = myYoutubename
+anotherName="Aryan"
+
+console.log(myYoutubename);//AryanAneja
+console.log(anotherName);//Aryan
+
+
+
+// Heap(Non -Primitive)
+// refrence milta hain mtlb jo bhi change honga orignal mein honga change
+
+let userOne ={
+    email:"user@google.com",
+    upi:"user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "aryan@google.com"
+
+console.log(userOne.email);//aryan@google.com
+console.log(userTwo.email);//aryan@google.com
