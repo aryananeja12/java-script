@@ -23,7 +23,7 @@ const newString =gameName.substring(0,4) //end include nhi hota
 console.log(newString); //arya
 
 const anotherString = gameName.slice(-8,11) //using -ve value will start from reverse
-console.log(anotherString);
+console.log(anotherString);//an-aneja
 
 const newStringOne="         Aryan     "
 console.log(newStringOne);//          Aryan
