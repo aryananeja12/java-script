@@ -70,11 +70,11 @@ const {courseInstructor : Instructor} =course //destructure short name
 
 console.log(Instructor) //Hitesh
 
-{                    //json api in format of object
-    "name":"hitesh",
-    "cousename": "js in hindi",
-    "price" :"free"
-}
+// {                    //json api in format of object
+//     "name":"hitesh",
+//     "cousename": "js in hindi",
+//     "price" :"free"
+// }
 
 [
 {},  //json api in format of array
