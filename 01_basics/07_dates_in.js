@@ -1,4 +1,5 @@
-// Dates
+// Dates 
+//control + space se recommendation khuljenga
 
 let myDate = new Date()
 console.log(myDate); //2024-01-22T19:38:06.330Z
@@ -32,6 +33,7 @@ console.log(newDate.getMonth());
 console.log(`${newDate.getDate()} and the time ${newDate.getTime()}`);
 
 console.log(newDate.toLocaleString('default', {//default:internationalization
-    weekday:"long",//object
-    // timeZone:''
+    weekday:"long",//object,
+    timeZone:'Asia/Kolkata', //India timezone
+    hour:"2-digit",
 }));
