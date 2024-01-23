@@ -16,7 +16,7 @@ let myCreatedDate = new Date("01-14-2023")
 //let DateNumberTwo = new Date("01-14-2023")
 //console.log(DateNumberTwo.toLocaleString()); //1/14/2023, 12:00:00 AM
 
-let myTimeStamp = new Date()
+let myTimeStamp = Date.now()
  
 console.log(myTimeStamp); //value in milliseconds
 console.log(myCreatedDate.getTime()); //milliseconds mein miljengi value
@@ -31,7 +31,7 @@ console.log(newDate.getMonth());
 
 console.log(`${newDate.getDate()} and the time ${newDate.getTime()}`);
 
-console.log(newDate.toLocaleString('default', {
-    weekday:"long",
+console.log(newDate.toLocaleString('default', {//default:internationalization
+    weekday:"long",//object
     // timeZone:''
 }));
